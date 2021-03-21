@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eaeded;
+  color: #FFF; }
+
+.container {
+  background-color: #48c9b0;
+  width: 700px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: default;
+  box-shadow: 2px 2px 4px rgba(000, 000, 000, 0.5); }
+
+.header{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  background-color: #1c2833;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .header h1 {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    padding: 4px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    margin-right: 20px; }
+    .header h1:hover {
+      border-bottom: 2px solid rgba(255, 255, 255, 1);
+      cursor: pointer; }
+.header .dia-semana {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+.dia-sem {
+  width: 150px;
+  height: 60px;
+  background-color: #1c2833;
+  font-size: 26px;
+  color: #FFF;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+  border: 1px solid #f1c40f; }
+
+.linea {
+  padding: 0 20px; }
+  .linea .hr {
+    border-bottom: 2px solid #eaeded; }
+/*<<<<<<<<<<<<<<<<< RELOJ */
+.reloj {
+  padding: 25px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .hora-css {
+    width: 80px;
+    height: 40px;
+    margin-left: 15px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(000, 000, 000, 0.5);
+    border: 1px solid #f1c40f;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .hora-css p {
+      color: #3498db;
+      font-size: 20px;
+      font-weight: bold; }
+h2 {
+  color: #1c2833;
+  font-size: 26px; }
+
+.hora {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.min {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 20px; }
+
+.seg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+
+/*<<<<<<<<<<<<<<<<< CALENDARIO*/
+.calendario {
+  padding: 25px 15px; }
+
+.calendario-fecha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.dia-mes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.mes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.año {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.fecha {
+  width: 110px;
+  height: 40px;
+  margin-left: 15px;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(000, 000, 000, 0.5);
+  border: 1px solid #f1c40f;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.fecha p {
+  color: #e74c3c;
+  font-size: 20px;
+  font-weight: bold; }

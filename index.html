@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Reloj y calendario</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Hoy es dia:</h1>
+        
+        <div class="dia-semana">
+          <div class="dia-sem" id="dia-semana"></div>
+        </div>
+      </div>
+
+      <!-- RELOJS -->
+      <div class="reloj">
+
+        <div class="hora">
+          <h2>Hora:</h2>
+          <div class="hora-css">
+            <p id="hora-js"></p>
+          </div>
+        </div>
+
+        <div class="min">
+          <h2>Minutos:</h2>
+          <div class="hora-css">
+            <p id="min-js"></p>
+          </div>
+        </div>
+
+        <div class="seg">
+          <h2>Segundos:</h2>
+          <div class="hora-css">
+            <p id="seg-js"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="linea">
+        <div class="hr"></div>
+      </div>
+
+      <!-- CALENDARIO -->
+      <div class="calendario">
+        <div class="calendario-fecha">
+          <div class="dia-mes">
+            <h2>Dia:</h2>
+            <div class="fecha"><p id="dia"></p></div>
+          </div>
+
+          <div class="mes">
+            <h2>Mes:</h2>
+            <div class="fecha"><p id="mes"></p></div>
+          </div>
+
+          <div class="año">
+            <h2>Año:</h2>
+            <div class="fecha"><p id="año"></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
